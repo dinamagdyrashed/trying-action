@@ -13,9 +13,6 @@ jobs:
 
 
     steps:
-      - name: 'Testing Githup action'
-        run:  pwd
+      - name: 'Print folder contents'
+        run:  ls
 
-
-      - name: 'Testing Printing'
-        run:  echo Dina
